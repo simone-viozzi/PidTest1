@@ -40,7 +40,7 @@ if __name__ == '__main__':
     outputs = []
     
     for s in range(len(steps)):
-        inputValue = sinValues[s] + nse[1]
+        inputValue = sinValues[s] + nse[s]
         
         control = p.control(inputValue)
         
